@@ -1,0 +1,68 @@
+body {
+  background-color: #fefbe7;
+}
+
+hr {
+  border-color: #dae5d0;
+  border-style: dotted none none none;
+  border-width: thick;
+  height: 0px;
+  width: 10%;
+}
+h1 {
+  color: #a0bcc2;
+  font-family: papyrus;
+  text-shadow: 1px 1px 1px blue;
+  letter-spacing: 3 px;
+  font-weight: BOLD;
+}
+h3 {
+  color: #a0bcc2;
+  font-family: papyrus;
+  text-shadow: 1px 1px 1px blue;
+  letter-spacing: 5 px;
+  font-weight: bold;
+  font-size: 21px;
+}
+p {
+  font-family: Courier, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+ul {
+  font-family: Courier, sans-serif;
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+  
+}
+ol {
+  font-family: Courier, sans-serif;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+}
+td {
+  font-family: Courier, sans-serif;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+}
